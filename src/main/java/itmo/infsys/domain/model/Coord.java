@@ -26,7 +26,7 @@ public class Coord {
     @Column(name = "y")
     private Long y;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")
     private User user;
 
