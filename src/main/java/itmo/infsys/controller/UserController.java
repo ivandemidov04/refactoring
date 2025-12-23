@@ -22,10 +22,10 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/get-admin")
-    public void getAdmin() {
-        userService.getAdmin();
-    }
+//    @GetMapping("get-admin")
+//    public void getAdmin() {
+//        userService.getAdmin();
+//    }
 
     @PostMapping("join")
     @PreAuthorize("hasRole('USER')")
