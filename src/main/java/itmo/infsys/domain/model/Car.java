@@ -23,7 +23,7 @@ public class Car {
     @Column(name = "cool", nullable = false)
     private Boolean cool;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")
     private User user;
 
