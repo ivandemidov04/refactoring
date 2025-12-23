@@ -1,7 +1,6 @@
 package itmo.infsys.service;
 
 import itmo.infsys.domain.dto.JoinDTO;
-import itmo.infsys.domain.dto.UserDTO;
 import itmo.infsys.domain.model.Join;
 import itmo.infsys.repository.JoinRepository;
 import lombok.RequiredArgsConstructor;

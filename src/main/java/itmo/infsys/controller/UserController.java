@@ -1,7 +1,6 @@
 package itmo.infsys.controller;
 
 import itmo.infsys.domain.dto.JoinDTO;
-import itmo.infsys.domain.dto.UserDTO;
 import itmo.infsys.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
